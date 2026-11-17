@@ -8,6 +8,9 @@ transfer. Every byte on the wire is wrapped in TLS, and every file is checked wi
   Both use the same networking core, `net.py`.
 - **Stack:** Python 3.10+ standard library (`socket`, `ssl`, `threading`, `json`, `hashlib`), plus `customtkinter` for the GUIs.
 
+**Docs:** [Walkthrough](docs/walkthrough.md) (hands-on: setup, LAN demo, Wireshark, tests, demo script) ·
+[Explanation](docs/explanation.md) (design in depth: protocol, TLS, concurrency, file transfer, viva answers)
+
 ![Server dashboard](docs/screenshots/dashboard.png)
 
 ## Quick start (one machine, 2 minutes)
